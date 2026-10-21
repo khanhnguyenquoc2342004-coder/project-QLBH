@@ -1,0 +1,20 @@
+export default {
+  isLoggedIn: false,
+  authInitialized: false,
+  currentUser: null,
+  userRole: '',
+  packages: [],
+  packagePage: { number: 0, size: 8, totalElements: 0, totalPages: 0 },
+  users: [],
+  cartItems: [],
+  orders: [],
+  adminOrders: [],
+  dashboardSummary: null,
+  auditLogs: [],
+  registrations: [],
+  purchasedServices: [],
+  adminRegistrations: [],
+  integrationLogs: [],
+  loading: false,
+  error: null
+};
